@@ -13,13 +13,13 @@ public class BaseTest {
 
     @BeforeClass(alwaysRun = true)
     public void setup() {
-        System.out.println("Start Mobitru app tests");
+        System.out.println("Start Mobitru app setup");
         initMobile(MobitruApp.class);
         File appFile = new File(FILE_NAME);
         String appFilePath = appFile.getAbsolutePath();
         System.out.println("Mobitru app absolute file path is: " + appFilePath);
         AppManager.installApp(appFilePath);
-        AppManager.launchApp();
+//        AppManager.launchApp();
     }
 
 }
