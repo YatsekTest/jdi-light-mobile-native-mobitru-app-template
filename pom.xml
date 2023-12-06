@@ -16,12 +16,6 @@
 
     <dependencies>
 
-        <!--<dependency>
-            <groupId>com.epam.jdi</groupId>
-            <artifactId>jdi-light</artifactId>
-            <version>1.5.1</version>
-        </dependency>-->
-
         <dependency>
             <groupId>com.epam.jdi</groupId>
             <artifactId>jdi-light-mobile</artifactId>
