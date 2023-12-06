@@ -17,10 +17,16 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.epam.jdi</groupId>
+            <groupId>com.github.jdi-testing.jdi-light</groupId>
             <artifactId>jdi-light-mobile</artifactId>
-            <version>1.5.1</version>
+            <version>update_appium_client_9_0_0-SNAPSHOT</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.epam.jdi</groupId>-->
+<!--            <artifactId>jdi-light-mobile</artifactId>-->
+<!--            <version>1.5.2-SNAPSHOT</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.testng</groupId>
@@ -29,6 +35,26 @@
         </dependency>
 
     </dependencies>
+
+    <repositories>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+
+<!--        <repository>-->
+<!--            <id>appium-java-client-9</id>-->
+<!--            <url>https://github.com/jdi-testing/jdi-light/tree/update_appium_client_9_0_0</url>-->
+<!--            <releases>-->
+<!--                <enabled>true</enabled>-->
+<!--            </releases>-->
+<!--            <snapshots>-->
+<!--                <enabled>true</enabled>-->
+<!--            </snapshots>-->
+<!--        </repository>-->
+
+    </repositories>
 
     <build>
         <plugins>
